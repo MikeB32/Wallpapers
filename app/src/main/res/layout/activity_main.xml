@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mylayout"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/img1"
+        android:src="@drawable/girl1"
+
+        android:padding="15dp"
+        android:layout_gravity="center"
+
+         />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        android:id="@+id/btn1"
+
+        />
+<HorizontalScrollView
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/img2"
+            android:padding="15dp"
+            android:src="@drawable/garden1"
+
+            />
+
+        <ImageView
+
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/img4"
+            android:src="@drawable/garden4"
+            android:padding="15dp"
+
+          />
+
+        <ImageView
+
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/img3"
+            android:src="@drawable/garden2"
+            android:padding="15dp"
+
+
+            />
+
+        <ImageView
+
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:id="@+id/img5"
+            android:src="@drawable/sports1"
+            android:padding="15dp"
+
+ />
+    </LinearLayout>
+</HorizontalScrollView>
+
+
+</LinearLayout>
